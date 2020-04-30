@@ -1,6 +1,7 @@
 package com.wreel.retail.security;
 
 import com.wreel.retail.security.JWT.JwtEntryPoint;
+import com.wreel.retail.security.JWT.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
