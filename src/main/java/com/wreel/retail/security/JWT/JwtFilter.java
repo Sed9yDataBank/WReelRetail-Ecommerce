@@ -1,6 +1,7 @@
 package com.wreel.retail.security.JWT;
 
 import com.wreel.retail.models.User;
+import com.wreel.retail.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
