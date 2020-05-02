@@ -72,7 +72,7 @@ public class CartServiceImpl implements CartService {
             productInOrderRepository.deleteById(productInOrder.getId());
         });
     }
-    
+
     @Override
     @Transactional
     public void checkout(User user) {
